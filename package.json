@@ -1,0 +1,22 @@
+{
+  "name": "aurelia-store-examples",
+  "version": "1.0.0",
+  "description": "Aurelia Store examples",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zewa666/aurelia-store-examples.git"
+  },
+  "keywords": [
+    "Aurelia",
+    "Store",
+    "Plugin",
+    "Examples"
+  ],
+  "author": "Vildan Softic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zewa666/aurelia-store-examples/issues"
+  },
+  "homepage": "https://github.com/zewa666/aurelia-store-examples#readme"
+}

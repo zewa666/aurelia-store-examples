@@ -1,11 +1,7 @@
 {
   "name": "markdown",
-  "description": "An Aurelia client application.",
-  "version": "0.1.0",
-  "repository": {
-    "type": "???",
-    "url": "???"
-  },
+  "description": "An Aurelia Store example showing a Markdown Editor with Undo Redo support",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "aurelia-animator-css": "^1.0.2",
