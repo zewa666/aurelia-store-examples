@@ -1,0 +1,18 @@
+<template>
+  <require from="./styles.css"></require>
+
+  <h1>Aurelia Store Markdown</h1>
+
+  <div class="toolbar">
+    <button click.trigger="undo()">(${state.past.length}) Undo</button>
+    <button click.trigger="redo()">Redo (${state.future.length})</button>
+  </div>
+
+  <div class="markdown-editor cf">
+    <textarea class="editor"
+              keyup.trigger="keyupHandler($event.target.value) & debounce"
+              value.one-way="state.present.raw"></textarea>
+    <div class="preview"
+         innerHTML.bind="state.present.html"></div>
+  </div>
+</template>
