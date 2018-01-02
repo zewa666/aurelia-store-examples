@@ -15,7 +15,7 @@
   "platform": {
     "id": "web",
     "displayName": "Web",
-    "port": 8080,
+    "port": 9000,
     "hmr": false,
     "open": false,
     "output": "dist"
