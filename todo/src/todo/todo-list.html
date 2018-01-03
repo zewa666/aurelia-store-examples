@@ -1,0 +1,8 @@
+<template>
+  <ux-list class="todos">
+    <div class="ux-list-item ${todo.isComplete ? 'done' : ''} au-animate bg-${todo.background}"
+      repeat.for="todo of todos">
+      <todo-item data.bind="todo"></todo-item>
+    </div>
+  </ux-list>
+</template>

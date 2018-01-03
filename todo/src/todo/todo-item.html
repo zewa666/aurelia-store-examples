@@ -1,0 +1,18 @@
+<template>
+  <template if.bind="data.isEditing">
+    <div class="list-content">
+      <ux-input focus.one-time="true" value.bind="data.text"></ux-input>
+    </div>
+    <div class="action-item">
+      <ux-button type="flat" click.delegate="saveChanges()" theme.bind="{flatForeground: '#fff'}">Save Changes</ux-button>
+    </div>
+  </template>
+  <template else>
+    <div class="detail">
+      <ux-checkbox checked.one-way="data.isComplete" click.delegate="completeTodo()" theme.bind="{border: '2px solid #333'}"></ux-checkbox>
+    </div>
+    <div class="list-content" dblclick.trigger="selectItem()">
+      ${data.text}
+    </div>
+  </template>
+</template>

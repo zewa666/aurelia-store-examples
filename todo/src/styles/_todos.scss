@@ -1,0 +1,48 @@
+$todoAnimSpeed: 0.1s;
+
+todo-list {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.todos {
+  .done {
+    opacity: 0.8;
+    
+    .list-content {
+      text-decoration: line-through;
+    }
+  }
+
+  &.au-enter {
+    opacity: 0 !important;
+  }
+
+  &.au-enter-active {
+    animation: fadeIn $todoAnimSpeed;
+  }
+
+  &.au-leave-active {
+    animation: fadeOut $todoAnimSpeed;
+  }
+}
+
+.todo {
+  
+}
+
+todo-actions {
+  display: flex;
+  
+  ux-input {
+    margin-right: 16px;
+  }
+
+  ux-button {
+    -webkit-appearance: none!important;
+  }
+
+  input {
+    color: white;
+  }
+}
