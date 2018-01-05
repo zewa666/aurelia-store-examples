@@ -34,6 +34,14 @@ A todo app showing the basics of the Store plugin from the perspective of a Vuex
 
 > Originally from [https://github.com/Vheissu/aurelia-store-todo](https://github.com/Vheissu/aurelia-store-todo)
 
+## Vis
+Minimal example of integrating [vis.js](http://visjs.org/index.html) with an Aurelia Store powered app and visualizing searched GitHub users.
+
+* JavaScript with WebPack using the Aurelia CLI
+* Higher Order Actions (passing in external services like HTTP)
+* Async Actions
+* Waiting for actions to complete
+
 ## Call to action
 Any feedback or ideas are welcome so hop over to the issues section and share your words.
 If you have an own Aurelia Store based example app, you'd like to share, we'd be happy to see a PR.

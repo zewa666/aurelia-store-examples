@@ -1,0 +1,17 @@
+<template>
+  <require from="./state-visualization"></require>
+  <h1>GitHub Users</h1>
+
+  <span if.bind="state.error"><b>${state.error}</b></span>
+
+  
+  <form submit.delegate="addUser(searchedUser)">
+    <label>
+      Add a GitHub user by name: <br />
+      <input type="text" value.bind="searchedUser"/>
+      <input type="submit" value="Add user" />
+    </label>
+  </form>
+
+  <state-visualization github-users.bind="state.githubUsers"></state-visualization>
+</template>
