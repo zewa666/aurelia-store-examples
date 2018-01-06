@@ -1,0 +1,69 @@
+{
+  "name": "electron-aurelia-store",
+  "type": "project:application",
+  "bundler": {
+    "id": "webpack",
+    "displayName": "Webpack"
+  },
+  "build": {
+    "options": {
+      "server": "dev",
+      "extractCss": "prod",
+      "coverage": false
+    }
+  },
+  "platform": {
+    "id": "web",
+    "displayName": "Web",
+    "port": 9000,
+    "hmr": false,
+    "open": false,
+    "output": "dist"
+  },
+  "loader": {
+    "id": "none",
+    "displayName": "None"
+  },
+  "transpiler": {
+    "id": "babel",
+    "displayName": "Babel",
+    "fileExtension": ".js",
+    "options": {
+      "plugins": [
+        "transform-es2015-modules-amd"
+      ]
+    }
+  },
+  "markupProcessor": {
+    "id": "none",
+    "displayName": "None",
+    "fileExtension": ".html"
+  },
+  "cssProcessor": {
+    "id": "none",
+    "displayName": "None",
+    "fileExtension": ".css"
+  },
+  "editor": {
+    "id": "vscode",
+    "displayName": "Visual Studio Code"
+  },
+  "unitTestRunner": [
+    {
+      "id": "none",
+      "displayName": "None"
+    }
+  ],
+  "integrationTestRunner": {
+    "id": "none",
+    "displayName": "None"
+  },
+  "paths": {
+    "root": "src",
+    "resources": "resources",
+    "elements": "resources/elements",
+    "attributes": "resources/attributes",
+    "valueConverters": "resources/value-converters",
+    "bindingBehaviors": "resources/binding-behaviors"
+  }
+}

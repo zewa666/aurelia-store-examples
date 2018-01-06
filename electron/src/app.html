@@ -1,0 +1,13 @@
+<template>
+  <h1>Send a desktop notification</h1>
+
+  <label>
+    Title:<br />
+    <input type="text" value.bind="newTitle"> <br /> <br />
+
+    Text:<br />
+    <textarea value.bind="newText" cols="30" rows="10"></textarea> <br /> <br />
+
+    <button click.trigger="createNotification(newTitle, newText)">Create notification</button>
+  </label>
+</template>

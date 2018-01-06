@@ -42,6 +42,15 @@ Minimal example of integrating [vis.js](http://visjs.org/index.html) with an Aur
 * Async Actions
 * Waiting for actions to complete
 
+## Electron
+A minimal electron demo, firing desktop notifications.
+
+> There seems to be an issue with Win10 Fall Creators update which does not allow Notifications, thus a tray balloon is used on win platform.
+
+* JavaScript with WebPack using the Aurelia CLI
+* Adapted tasks to run Electron app right after starting the webpack devserver
+* Registering a middleware, to propagate state changes via ipcRenderer to the main process
+
 ## Call to action
 Any feedback or ideas are welcome so hop over to the issues section and share your words.
 If you have an own Aurelia Store based example app, you'd like to share, we'd be happy to see a PR.
