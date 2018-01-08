@@ -24,7 +24,7 @@ function createWindow() {
     .then((name) => console.log(`Added Extension:  ${name}`))
     .catch((err) => console.log('An error occurred: ', err));
 
-  tray = new Tray('./static/aurelia-icon-512x512.png');
+  tray = new Tray('./static/aurelia-icon-16x16.png');
   tray.setToolTip('Aurelia Store Electron example');
 }
 
@@ -51,7 +51,7 @@ ipcMain.on('state-change', (event, arg) => {
       icon: './static/aurelia-icon-512x512.png'
     });
   } else {
-    let notification = new Notification('Title', {
+    let notification = new Notification({
       title: arg.message.title,
       body: arg.message.text,
       icon: './static/aurelia-icon-512x512.png'
