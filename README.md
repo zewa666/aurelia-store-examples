@@ -50,6 +50,7 @@ A minimal electron demo, firing desktop notifications.
 * JavaScript with WebPack using the Aurelia CLI
 * Adapted tasks to run Electron app right after starting the webpack devserver
 * Registering a middleware, to propagate state changes via ipcRenderer to the main process
+* Preinstalled Redux DevTools Extension. Integrated with the embedded Chrome Devtools (open Redux tab).
 
 ## Call to action
 Any feedback or ideas are welcome so hop over to the issues section and share your words.
