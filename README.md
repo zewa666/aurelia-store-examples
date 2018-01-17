@@ -52,6 +52,12 @@ A minimal electron demo, firing desktop notifications.
 * Registering a middleware, to propagate state changes via ipcRenderer to the main process
 * Preinstalled Redux DevTools Extension. Integrated with the embedded Chrome Devtools (open Redux tab).
 
+## Immer
+Tired of Object.assign? Take a look at this demo to see how to use [Immer](https://github.com/mweststrate/immer) with Aurelia-Store.
+
+* TypeScript with RequireJS using the Aurelia CLI
+* Usage of Immer to avoid having to manually create immutable clones.
+
 ## Call to action
 Any feedback or ideas are welcome so hop over to the issues section and share your words.
 If you have an own Aurelia Store based example app, you'd like to share, we'd be happy to see a PR.
