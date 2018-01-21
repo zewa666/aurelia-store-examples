@@ -30,13 +30,13 @@ export class App {
 }
 
 function increaseCounter(state: State) {
-  return produce(state, (draftState: State) => {
+  return produce(state, (draftState) => {
     draftState.counter++;
   });
 }
 
 function decreaseCounter(state: State) {
-  return produce(state, (draftState: State) => {
+  return produce(state, (draftState) => {
     draftState.counter--;
   });
 }
