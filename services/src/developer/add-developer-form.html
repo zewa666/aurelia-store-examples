@@ -1,0 +1,28 @@
+<template>
+  <h3>Add a new developer</h3>
+  <label for="cmb-category">
+    Category:<br />
+    <select id="cmb-category" value.bind="newDevCategory">
+      <option value="junior">Junior</option>
+      <option value="pro">Pro</option>
+    </select>
+  </label>
+
+  <br /><br />
+
+  <label for="txt-devname">
+    Name:<br />
+    <input type="text" value.bind="newDevName">
+  </label>
+
+  <br /><br />
+  
+  <label for="txt-devname">
+    Skills: (comma separated)<br />
+    <input type="text" value.bind="newDevSkills">
+  </label>
+  
+  <br /><br />
+
+  <button click.delegate="addDeveloper()" disabled.bind="addingDeveloperInProgress">Add Developer</button>
+<template>

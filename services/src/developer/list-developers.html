@@ -1,0 +1,16 @@
+<template>
+  <!-- for these simple functions, we can directly bind to the actions provided as input -->
+  <button click.delegate="loadAllDevs()">Load all devs</button>
+  <button click.delegate="loadProDevs()">Load pro devs</button>
+  <button click.delegate="loadJuniorDevs()">Load junior devs</button>
+
+  <!-- we can render the list based on the passed in developers input -->
+  <ul>
+    <li repeat.for="dev of developers">
+      <b>Name:</b> ${dev.name} <br />
+      <b>Skills:</b> ${dev.skills.join(", ")}
+      <br />
+      <br />
+    </li>
+  </ul>
+</template>

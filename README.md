@@ -58,6 +58,12 @@ Tired of Object.assign? Take a look at this demo to see how to use [Immer](https
 * TypeScript with RequireJS using the Aurelia CLI
 * Usage of Immer to avoid having to manually create immutable clones.
 
+## Services
+Showcase of how to use a classic existing Service with the Aurelia-Store approach
+
+* TypeScript with RequireJS
+* Old-school services used in actions
+
 ## Call to action
 Any feedback or ideas are welcome so hop over to the issues section and share your words.
 If you have an own Aurelia Store based example app, you'd like to share, we'd be happy to see a PR.

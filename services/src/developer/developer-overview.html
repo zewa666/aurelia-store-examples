@@ -1,0 +1,15 @@
+<template>
+  <!-- this higher order component will require all its childs -->
+  <require from="./add-developer-form"></require>
+  <require from="./list-developers"></require>
+
+  <!-- and render them, passing in the state as input -->
+  <add-developer-form state.bind="state"></add-developer-form>
+
+  <br /><br />
+
+  <list-developers developers.bind="state.developers"
+                   load-all-devs.bind="loadAllDevs"
+                   load-pro-devs.bind="loadProDevs"
+                   load-junior-devs.bind="loadJuniorDevs"></list-developers>
+</template>
