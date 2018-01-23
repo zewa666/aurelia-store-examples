@@ -13,7 +13,7 @@
     "aurelia-polyfills": "latest",
     "aurelia-store": "^0.16.0",
     "bluebird": "^3.4.1",
-    "electron": "^1.7.10"
+    "electron": "^1.7.11"
   },
   "peerDependencies": {},
   "devDependencies": {
