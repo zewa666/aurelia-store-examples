@@ -63,6 +63,7 @@ Showcase of how to use a classic existing Service with the Aurelia-Store approac
 
 * TypeScript with RequireJS
 * Old-school services used in actions
+* Shows the use of dispatchify
 
 ## Call to action
 Any feedback or ideas are welcome so hop over to the issues section and share your words.
