@@ -12,7 +12,7 @@ export class ContactDetail {
   constructor(api, store) {
     this.api = api;
     this.store = store;
-    this.store.state.subscribe( state => this.state = state );
+    this.store.state.subscribe(state => this.state = state);
   }
 
   activate(params, routeConfig) {

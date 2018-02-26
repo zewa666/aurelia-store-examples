@@ -12,7 +12,7 @@ Examples for the [Aurelia-Store](https://github.com/zewa666/aurelia-store) plugi
 > If `au run` does not work, make sure to install aurelia-cli globally via `npm install -g aurelia-cli` or respectively ` yarn global add aurelia-cli` if you're using Yarn.
 
 ## Markdown
-A simple markdown with history support
+A simple markdown editor with history support
 
 * TypeScript with WebPack using the Aurelia CLI
 * Aurelia-Store using a StateHistory<State>
@@ -33,6 +33,9 @@ A todo app showing the basics of the Store plugin from the perspective of a Vuex
 * Uses Aurelia-UX
 
 > Originally from [https://github.com/Vheissu/aurelia-store-todo](https://github.com/Vheissu/aurelia-store-todo)
+
+> There will be some warnings emitted by Webpack with regards to the css-loader, which are a known issue in the current
+Aurelia-UX status.
 
 ## Vis
 Minimal example of integrating [vis.js](http://visjs.org/index.html) with an Aurelia Store powered app and visualizing searched GitHub users.
