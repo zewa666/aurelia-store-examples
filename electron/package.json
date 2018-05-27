@@ -11,26 +11,26 @@
     "aurelia-animator-css": "^1.0.2",
     "aurelia-bootstrapper": "^2.1.1",
     "aurelia-polyfills": "^1.3.0",
-    "aurelia-store": "^0.16.0",
+    "aurelia-store": "^0.24.1",
     "bluebird": "^3.4.1",
     "electron": "^1.8.4"
   },
   "peerDependencies": {},
   "devDependencies": {
-    "aurelia-cli": "^0.32.0",
+    "aurelia-cli": "^0.33.1",
     "aurelia-testing": "^1.0.0-beta.3.0.1",
     "aurelia-tools": "^1.0.0",
     "aurelia-webpack-plugin": "^2.0.0-rc.4",
-    "babel-core": "^6.25.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "7.2.3",
     "babel-loader": "^7.0.0",
-    "babel-plugin-istanbul": "4.1.4",
+    "babel-plugin-istanbul": "^4.1.6",
     "babel-plugin-syntax-flow": "^6.8.0",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-flow-strip-types": "^6.8.0",
     "babel-polyfill": "^6.9.1",
-    "babel-preset-env": "1.5.2",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-stage-1": "^6.5.0",
     "babel-register": "^6.24.0",
@@ -66,7 +66,7 @@
     "node": ">= 6.0.0"
   },
   "scripts": {
-    "start": "nps",
+    "start": "au run --watch",
     "test": "nps test"
   },
   "main": "electron-main.js"
