@@ -6,7 +6,7 @@ Examples for the [Aurelia-Store](https://github.com/zewa666/aurelia-store) plugi
 * Clone this repo
 * Navigate to a subfolder of a sample [contacts, electron, immer, ...] in your command line
 * Run `npm install`, or alternatively if you're using Yarn `yarn install`
-* Run `au run --watch`
+* Run `npm start`, which in turn runs `au run --watch`
 * Open your browser and navigate to `http://localhost:9000`
 
 > If `au run` does not work, make sure to install aurelia-cli globally via `npm install -g aurelia-cli` or respectively ` yarn global add aurelia-cli` if you're using Yarn.
