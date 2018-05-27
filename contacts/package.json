@@ -10,7 +10,7 @@
   "author": "Vildan Softic",
   "dependencies": {
     "aurelia-bootstrapper": "^1.0.0",
-    "aurelia-store": "^0.14.2",
+    "aurelia-store": "^0.24.1",
     "bluebird": "^3.4.1",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.0",
