@@ -2,6 +2,13 @@
 
 Examples for the [Aurelia-Store](https://github.com/zewa666/aurelia-store) plugin.
 
+## Hosted samples
+
+### [Module based splits](https://stackblitz.com/edit/aurelia-typescript-y3x3ca)
+ * Each module of the app is a [feature](https://aurelia.io/docs/fundamentals/app-configuration-and-startup#organizing-your-app-with-features)
+ * State slices per module
+ * Modules work on the plucked state-slice
+
 ## Usage
 * Clone this repo
 * Navigate to a subfolder of a sample [contacts, electron, immer, ...] in your command line
