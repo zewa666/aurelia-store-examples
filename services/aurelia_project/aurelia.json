@@ -134,14 +134,21 @@
             "env": "dev"
           },
           {
-            "name": "rxjs",
-            "main": false,
-            "path": "../node_modules/rxjs"
-          },
-          {
             "name": "aurelia-store",
             "main": "aurelia-store",
             "path": "../node_modules/aurelia-store/dist/commonjs",
+            "resources": []
+          },
+          {
+            "name": "rxjs",
+            "main": "./index.js",
+            "path": "../node_modules/rxjs",
+            "resources": []
+          },
+          {
+            "name": "rxjs/operators",
+            "main": "./index.js",
+            "path": "../node_modules/rxjs/operators",
             "resources": []
           }
         ]

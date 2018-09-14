@@ -5,3 +5,4 @@ node_modules
 scripts/app-bundle.js
 scripts/app-bundle.js.map
 scripts/vendor-bundle.js
+scripts/vendor-bundle.js.map
