@@ -25,15 +25,17 @@ function addTodo(state, text) {
 }
 
 function editTodo(state, todo) {
-  todo.isEditing = false;
+  const newTodo = Object.assign({}, todo);
+  newTodo.isEditing = false;
 
-  return updateTodoCollection(state, todo);
+  return updateTodoCollection(state, newTodo);
 }
 
 function completeTodo(state, todo) {
-  todo.isComplete = !todo.isComplete;
+  const newTodo = Object.assign({}, todo);
+  newTodo.isComplete = !newTodo.isComplete;
 
-  return updateTodoCollection(state, todo);
+  return updateTodoCollection(state, newTodo);
 }
 
 function deleteTodo(state) {
@@ -47,9 +49,10 @@ function deleteTodo(state) {
 }
 
 function activateTodoEditMode(state, todo) {
-  todo.isEditing = true;
+  const newTodo = Object.assign({}, todo);
+  newTodo.isEditing = true;
 
-  return updateTodoCollection(state, todo);
+  return updateTodoCollection(state, newTodo);
 }
 
 function updateTodoCollection(state, todo) {

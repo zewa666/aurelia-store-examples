@@ -1,7 +1,7 @@
 import { Container } from 'aurelia-dependency-injection';
 import { Store } from 'aurelia-store';
 
-import { addTodo, completeTodo, editTodo, deleteTodo, activateTodoEditMode } from '../../src/actions';
+import { addTodo } from '../../src/actions';
 
 describe('Test application actions', () => {
   let container;
