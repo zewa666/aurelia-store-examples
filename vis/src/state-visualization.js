@@ -1,5 +1,6 @@
 import { bindable } from 'aurelia-framework';
-import vis from 'vis';
+import vis from 'vis-network';
+import 'vis-network/dist/vis-network.min.css';
 
 export class StateVisualization {
   @bindable() githubUsers = [];
@@ -11,7 +12,8 @@ export class StateVisualization {
 
     const nodes = new vis.DataSet(this.githubUsers.map((user) => ({
       id: user.id,
-      label: user.login
+      label: user.login,
+      title: user.login
     })));
 
     // create an array with edges
@@ -23,9 +25,21 @@ export class StateVisualization {
     }));
 
     if (!this.network) {
-      this.network = new vis.Network(this.host, { nodes, edges }, {});
+      this.network = new vis.Network(this.host, { nodes, edges }, {
+        interaction: {
+          hover: true
+        },
+        nodes: {
+          color: {
+            hover: {
+              border: '#2B7CE9',
+              background: '#D2E5FF'
+            }
+          }
+        }
+      });
     } else {
-      this.network.setData({edges, nodes});
+      this.network.setData({ edges, nodes });
     }
   }
 }
