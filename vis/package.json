@@ -15,14 +15,14 @@
     "aurelia-store": "^0.16.0",
     "bluebird": "^3.4.1",
     "fetch": "^1.1.0",
-    "vis": "^4.21.0"
+    "vis-network": "^6.0.0"
   },
   "peerDependencies": {},
   "devDependencies": {
     "aurelia-cli": "^0.32.0",
     "aurelia-testing": "^1.0.0-beta.3.0.1",
     "aurelia-tools": "^1.0.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.0",
     "minimatch": "^3.0.2",
     "through2": "^2.0.1",
     "uglify-js": "^3.0.19",
