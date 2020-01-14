@@ -34,7 +34,7 @@
     "babel-register": "^6.11.6",
     "browser-sync": "^2.24.4",
     "connect-history-api-fallback": "^1.2.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.0",
     "gulp-babel": "^6.1.2",
     "gulp-changed-in-place": "^2.0.3",
     "gulp-eslint": "^3.0.1",
