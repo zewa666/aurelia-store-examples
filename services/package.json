@@ -29,7 +29,7 @@
     "browser-sync": "^2.24.4",
     "connect-history-api-fallback": "^1.2.0",
     "event-stream": "^3.3.3",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.0",
     "gulp-changed-in-place": "^2.0.3",
     "gulp-htmlmin": "^3.0.0",
     "gulp-notify": "^2.2.0",
