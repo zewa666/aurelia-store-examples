@@ -16,7 +16,7 @@
     "aurelia-bootstrapper": "^2.1.1",
     "aurelia-store": "^0.24.1",
     "bluebird": "^3.4.1",
-    "immer": "^0.8.2",
+    "immer": "^8.0.1",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest"
   },
