@@ -43,7 +43,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.0.0-alpha",
     "jasmine-core": "^2.4.1",
-    "karma": "^2.0.2",
+    "karma": "^6.4.1",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-chrome-launcher": "^1.0.1",
     "karma-jasmine": "^1.0.2",
