@@ -58,7 +58,7 @@
     "jest-jasmine2": "21.2.1",
     "jest-matchers": "^20.0.3",
     "json-loader": "0.5.7",
-    "karma": "^0.13.22",
+    "karma": "^6.4.1",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.2",
