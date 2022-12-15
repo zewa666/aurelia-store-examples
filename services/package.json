@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/jasmine": "^2.2.0",
     "@types/node": "^6.0.45",
-    "aurelia-cli": "^0.33.1",
+    "aurelia-cli": "^3.0.1",
     "aurelia-testing": "^1.0.0-beta.2.0.1",
     "aurelia-tools": "^1.0.0",
     "browser-sync": "^2.24.4",
